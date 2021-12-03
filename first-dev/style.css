@@ -1,0 +1,289 @@
+body {
+    background-image: url('https://www.guide-piscine.fr/medias/image/les-bienfaits-de-l-eau-de-mer-sur-la-peau-23971-720-0.jpg');
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+#welcome {
+    height: 40px;
+}
+
+.container {
+    background-color: #fff;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    width: 50%;
+    justify-content: center;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+}
+
+.enfant1 {
+    width: 15%;
+    height: 100%;
+    padding-left: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px black, -1em 0 .4em black;
+    background-color: rgba(240, 248, 255, 0.329);
+}
+
+
+.enfant1 h3 {
+    margin-left: 20%;
+}
+
+.enfant2 {
+
+    width: 15%;
+    height: 100%;
+    padding-left: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px black, -1em 0 .4em black;
+    background-color: rgba(240, 248, 255, 0.322);
+}
+
+.enfant2 h3 {
+    margin-left: 20%;
+}
+
+.enfant3 {
+
+    width: 15%;
+    height: 100%;
+    padding-left: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px black, -1em 0 .4em black;
+    background-color: rgba(240, 248, 255, 0.445);
+
+}
+
+.enfant3 h3 {
+    margin-left: 20%;
+}
+
+#heroes .titre {
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#heroes .titre h1 {
+    text-align: center;
+}
+
+#inventory {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inventory table {
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+    height: 30%;
+
+}
+
+#inventory th {
+    height: 100%;
+    border: solid 1px black;
+}
+
+.tab {
+    height: 20%;
+}
+
+td {
+    border: solid 1px black;
+    height: 20%;
+}
+
+.inbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(89, 157, 197, 0.815);
+}
+
+.nav button {
+    background-color: rgb(136, 218, 136);
+    color: black;
+    margin: auto;
+    width: 75px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+#contactForm {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContent {
+    width: 300px;
+    height: 300px;
+}
+
+.navContent input {
+    width: 100%;
+}
+
+.navContent textarea {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.container2 {
+    margin-top: 3rem;
+    width: 90%;
+    height: 40vh;
+    margin-left: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 3px black, -1em 0 .4em black;
+    background-color: rgba(240, 248, 255, 0.445);
+}
+
+.history {
+    width: 15%;
+    height: 100%;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+
+
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  form h1 {
+    font-size: 20px;
+  }
+  form .separation {
+    width: 100%;
+    height: 1px;
+    background-color: #747cdf;
+  }
+  form .corps-formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  form .corps-formulaire .groupe {
+    position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 5px;
+  }
+  form .corps-formulaire .gauche .groupe i {
+    position: absolute; /* positionné par rapport à son parent le plus proche positionné */
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #747cdf;
+  }
+  form .corps-formulaire .droite {
+    margin-left: 40px;
+  }
+  form .corps-formulaire .droite .groupe {
+    height: 100%;
+  }
+  form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #747cdf;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+  }
+  form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #6e7fdf;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  form .pied-formulaire button:hover {
+    transform: scale(1.05);
+  }
+  
+  @media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+      margin-left: 0px;
+    }
+}
+.contact-container{
+    width: 30%;
+}
+.contact{
+width: 100%;
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
